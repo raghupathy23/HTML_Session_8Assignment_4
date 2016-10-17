@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>To change the hyperlink and the text of an existing link</title>
+	<!-- Include Javascript File in a Script Tag -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#acadgild").attr('href','http://www.google.com'); // Changing hyperlink by using ID
+		$("#acadgild").text("Google"); // Changing Text of the hyperlink by using ID
+		
+	});
+	</script>
+</head> 
+<body>
+	<h1>Write jQuery Code to change the hyperlink and the text of an existing link</h1>
+	<a href="http://www.acadgild.com" id="acadgild" target="_blank">jQuery Tutorial</a>
+</body>
+</html>
